@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use TIAE, please cite the accompanying manuscript."
+title: "From Intent Alignment to Intent Topology: A Topological Theory of Goal-Directed Embodied Control"
+type: software
+authors:
+  - family-names: Wu
+    given-names: Yuxiang
+    email: luoliibaqi4747@gmail.com
+  - family-names: Wu
+    given-names: Tusun
+  - family-names: Wu
+    given-names: Yuyan
+repository-code: "https://github.com/molyswu/TIAE"
+license: MIT
+version: 1.0.0
+date-released: 2026-08-06
+keywords:
+  - world models
+  - robot learning
+  - joint-embedding predictive architectures
+  - goal-conditioned control
+  - topology-preserving learning
+  - manifold learning
+  - intent-action embedding
+preferred-citation:
+  type: article
+  title: "From Intent Alignment to Intent Topology: A Topological Theory of Goal-Directed Embodied Control"
+  authors:
+    - family-names: Wu
+      given-names: Yuxiang
+    - family-names: Wu
+      given-names: Tusun
+    - family-names: Wu
+      given-names: Yuyan
+  year: 2026
+  identifiers:
+    - type: other
+      value: "TIAE-2026"
+      description: "Manuscript included in repository as Manuscript_Wu_et_al_Topological_Theory.pdf"

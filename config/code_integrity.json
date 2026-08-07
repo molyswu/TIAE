@@ -1,0 +1,73 @@
+{
+  "description": "Canonical TIAE four-slot 7/7 training and evaluation contract",
+  "eval_seeds": [
+    0,
+    1,
+    42
+  ],
+  "feature_layout": "four_slot",
+  "files": {
+    "abcd_solvers.py": "2813204c7c721ca9896e217c7a75afa3938e8347d6687f1b268db36f90167c5c",
+    "cem_solvers.py": "0549f4bfa94c8086a484692a70ce6f6913c1421032b7075a8cd3ad47a51c7f67",
+    "config/eval/cube.yaml": "98f2dd846d31a9171cc38752b39e4d03977973a78ed1d1a25cb3d2fb8a28abcc",
+    "config/eval/launcher/local.yaml": "1dda4add0a1632ba41458377e11897cd80ba2508483a82fb6a41f0f88a06b900",
+    "config/eval/pusht.yaml": "756dfa8132976eb5e7e93b77ef45c6d5348b19f27f46403ce76a8ac446e1b513",
+    "config/eval/reacher.yaml": "80fbe4b687e459ba39586b41bff5c37c8ec8e61740eecb4980e776d8547e86bc",
+    "config/eval/solver/actor_cem.yaml": "7a77fb5104befe023cfe71e84c20ef210fc6f97f50a0b38431f04562f7b9ecef",
+    "config/eval/solver/cem.yaml": "797629f829c0d3ad3b9c4e42d46a87f08da0b3845bc433e353fd6274cb0574df",
+    "config/eval/solver/direct.yaml": "ac3b378cdcf797d215031b0f307666046e73cfd5b675c088adfc09931b56fed3",
+    "config/eval/solver/guarded_a.yaml": "8afd6ce300f1713ee7622a1ed225496a8ea4c3099c5eba46b0e4d25b7f8db1a6",
+    "config/eval/solver/pure_cem.yaml": "57c58458dadb3814b075581d3f8987423f3a9c3ba0b65bb7c350d72b6b6e6b4e",
+    "config/eval/tworoom.yaml": "09cbcaa1f28744175d7efd0d224ba2caeac65aee6a63a77306721b55c9dfcc68",
+    "config/train/data/dmc.yaml": "0fbcaca895efdf182206b524c5a26ce545a351c2ac85d0075895af59b991a62d",
+    "config/train/data/ogb.yaml": "6908c82993d7d3efa9cfde5086ae198018fdf04470cd954642c9b9ec7b7aa098",
+    "config/train/data/pusht.yaml": "a0084d80ce6bd31879df1abb7b5b683910483d0a6f299f6dc6f4cca0dd359400",
+    "config/train/data/tworoom.yaml": "e96ffa42457cdca88fb140debe7e731c8d6f89519702ee7a958b10e424ff7904",
+    "config/train/launcher/local.yaml": "417c973380226b2279f360bf0072c357ed147dbf92e0caffda56275bdf73b432",
+    "config/train/lewm.yaml": "5070624453f90e224780072ab70888e534f25917ccb4812d568349c8a580e6a3",
+    "config/train/model/tiae.yaml": "ea0cec5fd1d89b0367fef7d4a59936d01a087e07da02a56d75e294748a10863b",
+    "config/train/tiae_goal.yaml": "e0f985ff8f7de41bb9b2e39e8e7093d73100978caaaec77ade54116e393ac2a0",
+    "config/train/tiae_goal_only.yaml": "08c0ec4d9f9abb2b91afbccf286089e44793cd8df449abd0425f5a9077a20eb6",
+    "config/train/tiae_inverse.yaml": "2775926659b4d3ef0406e0e980258308310b2f0bc2c11e31235aa0446305b9fe",
+    "config/train/tiae_waypoint.yaml": "0708a3675ba858d7b34044c5cbb62e2a845d71722d643072d7f9fbca1f4a6bfb",
+    "direct_solver.py": "bcedc04a53c705985aa786f5e65f03b03ff3494de787969be1d3a2d1f577e01d",
+    "eval.py": "a18122835ac5c1cd07c206a5cb92c6e37183244ea6c8fa688b43e5517c295eb7",
+    "jepa.py": "85e05c421171fe4a8bdccd79fa3ae531457ccf0ab406004616142a4c4ff6583e",
+    "module.py": "f594bb8d97971681e48d7a4ed50e87c0808f4564fe6c50ea7c1478790db9ad0d",
+    "prior_only_solver.py": "f92dc5d16b14211d8bf7a6486728d7f23cba4ca6f0f0e0e3c6499ad497940fda",
+    "requirements-dev.txt": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15",
+    "requirements.txt": "00062531784972216bdf6f47bbca385d56482861068701d0f89bcb8e5b260151",
+    "scripts/audit_previous_action_loader.py": "1fd6a20a196afe884bbee60b8c0255c487c5c5449c752f658f5bb87e0b7dd3a6",
+    "scripts/eval_clear_v051.sh": "656779a9fce0d6caada2b0d1747963c64083baef664f1734cdbd2117ab40c4c3",
+    "scripts/eval_direct.sh": "0deebc2ede0257e79c6123e838af01a588825d91c097ef43f1cb30538eb88e45",
+    "scripts/eval_official.sh": "b179851633e99406a14db1dbb25ba34b54016b98501ff202dd494895565126a3",
+    "scripts/install.sh": "c879eb87c06437d6493ff8205a717d84a1775d8b0f0ab0970ef33c8d21e47b00",
+    "scripts/preflight_check.py": "9b78114bfc9413a157e4b1e1d793304f763cfa957a844f42593a6610f3926c70",
+    "scripts/train_multitask.sh": "c7716ebf6105ff521138653e72b3af1247f1981831fb30a175495dd10381077c",
+    "scripts/train_single.sh": "290853d172668aa17e0fe6ea2af560a492b92152d9cfdc95a020497bfb484ff4",
+    "tiae.py": "7de634a15456a3f0a95dbb38eb4e1352035a52f267b6e3421257ce84a51a0243",
+    "train.py": "1bfdff282f30af40c23e8ce1698afe0fad323bd721cac402d3ca8c22b94011ff",
+    "train_multitask.py": "8ca8d50feb38bafd62a2eae030e52859ff3be17fe9e22d9683ecf6a4a5cc4507",
+    "utils.py": "856c0f4a6e9e40535a07dda75a4707b1df5c65a275622a3ed1493b09885c4923"
+  },
+  "schema_version": "tiae-code-integrity-v1",
+  "tiae_topology": {
+    "distance_metric": "cosine",
+    "subset_size": 256,
+    "topo_weight_range": [
+      0.03,
+      0.05
+    ]
+  },
+  "train_seeds": [
+    0,
+    42,
+    3072
+  ],
+  "window_protocol": {
+    "goal_start": 0,
+    "goal_steps": 7,
+    "local_start": 0,
+    "local_steps": 7
+  }
+}
